@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  duckduckgo-api:
+    image: duckduckgo-api
+    container_name: duckduckgo-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "8000:8000"
