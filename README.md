@@ -1,0 +1,2 @@
+# duckduckgo-api
+DuckDuckGo API
